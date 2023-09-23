@@ -35,8 +35,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       //for show the indes position
                       CircleAvatar(
-                        child: Text(index.toString()),
-                        backgroundColor: Colors.blue,
+                        radius: 10,
+                        child: Text(index.toString(),style: TextStyle(color: Colors.white),),
+                        backgroundColor: Colors.grey,
                       ),
                       // first list title to show name
                       ListTile(
@@ -58,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 setState(() {});
                               }
                             },
-                            icon: Icon(Icons.edit),
+                            icon: Icon(Icons.edit,color: Colors.blue),
                           )),
                       //second list title to show address
                       ListTile(
@@ -72,7 +73,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               print(res);
                               setState(() {});
                             },
-                            icon: Icon(Icons.delete),
+                            icon: Icon(Icons.delete,color: Colors.red,),
                           )),
                       //third list title to show phone
                       ListTile(
