@@ -1,16 +1,17 @@
-# untitled2
+# Student List App
 
-A new Flutter project.
+Project release date - 23.09.2023
 
-## Getting Started
+## Project feature
 
-This project is a starting point for a Flutter application.
+- post
+- delet
+- update
+- deleteAll
+- show data
 
-A few resources to get you started if this is your first Flutter project:
+### Contact Me
+- [My Facebook Account](https://www.facebook.com/itbywinhtike/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
